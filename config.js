@@ -5,7 +5,7 @@ export const config = {
   
   dev: {
     mode: 'production',
-    database: 'mariadb', // supabase or mariadb
+    database: 'supabase', // supabase or mariadb
     apiURL: 'https://windus-api.vercel.app/api' // full url to your API backend
   }
 }
