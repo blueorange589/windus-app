@@ -64,7 +64,7 @@ export const utils = {
     full: () => { return [utils.url.base, utils.url.sub].join('') },
     file: (fn) => { return [utils.url.full(),fn].join('/') },
     link: (fn) => { return [utils.url.sub,fn].join('') },
-    backend: (ep) => { return config.dev.apiURL }
+    backend: (ep) => { return config.dev.apiURL+ep }
   },
   file: {
     export: (filename, type, content) => {
