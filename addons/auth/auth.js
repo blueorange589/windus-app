@@ -14,7 +14,8 @@ auth.data = reactive({
 
 auth.events = {
   signIn: async() => {
-    const res = await xhr.auth('/signin', auth.data.login)
+    const {email, password} = auth.data.login
+    const res = await xhr.auth('/signin', {email, password})
     if(res.user?.id) {
       store.me = res.user
       localStorage.setItem('wdsess', JSON.stringify(res.user))
