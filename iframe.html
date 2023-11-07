@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <script src="/cdn_modules/tailwind@3.3.3/tailwind.js"></script>
+</head>
+
+<body class="text-sm lg:text-xl w-full h-full">
+
+  <div id="previewContainer">hello world</div>
+
+
+  <script>
+    const getPage = async() => {
+      const {hash} = window.location
+      const str = hash.slice(1)
+      const parts = str.split('/')
+
+      const q = {run: 'select', from: 'wd_pages', match: {project: parts[0], name: parts[1]}, single: true}
+      const page = await fetch('http://0.0.0.0:3000/api/sb/query', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(q)
+      }).then(response => {
+        if (response.ok) {
+          return response.json()
+        }
+      })
+      if(page.data) {
+        const ct = document.getElementById('previewContainer')
+        ct.innerHTML = page.data.html
+      }
+    }
+
+    getPage()
+  </script>
+
+</body>
+
+</html>

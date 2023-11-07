@@ -1,0 +1,1 @@
+export const htmlTags = ['a', 'article', 'blockquote', 'button', 'caption', 'canvas', 'center', 'code', 'div', 'embed', 'fieldset', 'footer', 'form', 'header', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr', 'img', 'input', 'label', 'ul', 'li', 'main', 'nav', 'option', 'p', 'section', 'select', 'span', 'strong', 'svg', 'textarea', 'table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td']
