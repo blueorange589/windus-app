@@ -124,7 +124,7 @@ const navbar = {
           <div class="ml-10 flex items-baseline space-x-4 lbs" id="lwjyhp">
             <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium lbs"
               id="ocxshm" @click="store.router.push({name:'home'})">Home</a>
-            <a href="#" class="text-white rounded-md px-3 py-2 text-sm font-medium bg-secondary" aria-current="page"
+            <a href="#" class="text-white rounded-md px-3 py-2 text-sm font-medium bg-orange-500" aria-current="page"
               id="ydc1dy" @click="store.router.push({name:'builder'})">Launch Builder</a>
             <a href="#" @click="auth.events.signOut" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium lbs"
               id="tg0by7">Logout</a>
