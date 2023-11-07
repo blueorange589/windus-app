@@ -10,6 +10,6 @@ export const addOns = {
       'forgot': {path: '/auth/forgot', name: 'auth-forgot'},
     },
   },
-  'admin': {path:'/', name: 'home', meta:{reqAuth: true, type: 'admin'}},
-  'windus': {path:'/builder', name: 'builder', meta:{reqAuth: true, type: 'admin'}, init: () => {}},
+  'admin': {path:'/', name: 'home', meta:{reqAuth: true}},
+  'windus': {path:'/builder', name: 'builder', meta:{reqAuth: true}, init: () => {}},
 }

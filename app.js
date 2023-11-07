@@ -144,15 +144,9 @@ const appMount = async() => {
       const { me } = store,
       { meta } = to;
       if (meta.reqAuth) {
-        if (meta.type) {
-          if (me) {
-            if (me.role !== meta.type) {
-              return { name: "site-unauthorized" };
-            }
-          } else {
-            store.nextRoute = to;
-            return { name: "auth-login" };
-          }
+        if(!me) {
+          store.nextRoute = to;
+          return { name: "auth-login" };
         }
       }
     })
