@@ -64,14 +64,7 @@ export const utils = {
     full: () => { return [utils.url.base, utils.url.sub].join('') },
     file: (fn) => { return [utils.url.full(),fn].join('/') },
     link: (fn) => { return [utils.url.sub,fn].join('') },
-    backend: (ep) => { 
-      /* let url = config.dev.backend.local+ep
-      if(config.dev.mode === 'production') {
-        url = config.dev.backend.production+ep
-      } */
-      
-    return utils.url.full() + '/api'
-    }
+    backend: (ep) => { return config.dev.apiURL }
   },
   file: {
     export: (filename, type, content) => {
