@@ -21,6 +21,9 @@ Password: abc123
 Installation and User Manual
 https://nodivas.gitbook.io/windus
 
+API backend in other repo
+https://github.com/blueorange589/windus-api
+
 ### Features
 
 - All Tailwind Utility classes (m-4, w-screen... etc.)
