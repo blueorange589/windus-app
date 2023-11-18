@@ -56,14 +56,14 @@ Supabase account or MySQL/MariaDB database
 
 ### Screenshots
 
-!\[\](<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/1_windus.png>)
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/1_windus.png>
 
-!\[\](<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png>)
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png>
 
-!\[\]([https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/3_windus.png](https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png))
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/3_windus.png>
 
-!\[\]([https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/4_windus.png](https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png))
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/4_windus.png>
 
-!\[\]([https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/5_windus.png](https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png))
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/5_windus.png>
 
-!\[\]([https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/6_windus.png](https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/2_windus.png))
+<https://raw.githubusercontent.com/blueorange589/windus-app/main/assets/screenshots/6_windus.png>
