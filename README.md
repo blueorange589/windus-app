@@ -34,6 +34,9 @@ https://nodivas.gitbook.io/windus
 API backend in other repo
 https://github.com/blueorange589/windus-api
 
+### IMPORTANT
+A web/mobile app interface should be on pure SVG and nothing else. It's another (a tough one) project for who wants to take it. #svg-builder #svg-ui
+
 ### Features
 
 * All Tailwind Utility classes (m-4, w-screen... etc.)
