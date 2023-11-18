@@ -35,7 +35,7 @@ API backend in other repo
 https://github.com/blueorange589/windus-api
 
 ### IMPORTANT
-A web/mobile app interface should be on pure SVG and nothing else. It's another (a tough one) project for who wants to take it. #svg-builder #svg-ui
+A web/mobile app interface should be on pure SVG and nothing else. with text/data I/O. It's another (a tough one) project for who wants to take it. #svg-builder #svg-ui @fontawesome @heroicons
 
 ### Features
 
